@@ -1,27 +1,27 @@
 class Galaxy < Formula
   desc "The Scalar Galaxy CLI Interface"
   homepage "https://scalar.com"
-  version "0.2.4"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/scalar/galaxy-cli/releases/download/v0.2.4/galaxy-darwin-arm64.tar.gz"
-      sha256 "17be12a226c942a7869b55c0d76339182e0faa0a9d66766b6bc1d10f137968fc"
+      url "https://github.com/scalar/galaxy-cli/releases/download/v0.3.0/galaxy-darwin-arm64.tar.gz"
+      sha256 "07ad014cd2d49a2777174a38f9f66ac109d02720df9bd1979c5f37403415174c"
     end
     on_intel do
-      url "https://github.com/scalar/galaxy-cli/releases/download/v0.2.4/galaxy-darwin-x64.tar.gz"
-      sha256 "42b2afc16fcbf40512b1b6d09a120515edcfb8e79d38f6b110b739bce932fdc0"
+      url "https://github.com/scalar/galaxy-cli/releases/download/v0.3.0/galaxy-darwin-x64.tar.gz"
+      sha256 "c86a6333f50144f1852a88c03b300aa645c95f7f67636b6952109625d5043fec"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/scalar/galaxy-cli/releases/download/v0.2.4/galaxy-linux-arm64.tar.gz"
-      sha256 "ab92be1142798a03c98fa4bcfb9e7913d609ff2a90c5c28058017bfbda80ff5e"
+      url "https://github.com/scalar/galaxy-cli/releases/download/v0.3.0/galaxy-linux-arm64.tar.gz"
+      sha256 "96d90e157a343ed00dd6b4201cda967ff8a293a391271a08ca167f0d1fefd565"
     end
     on_intel do
-      url "https://github.com/scalar/galaxy-cli/releases/download/v0.2.4/galaxy-linux-x64.tar.gz"
-      sha256 "be8dc5a40f59d0f16ad2e7e310f5b60d5dd7448ace28c06bb94a561aa930e5c0"
+      url "https://github.com/scalar/galaxy-cli/releases/download/v0.3.0/galaxy-linux-x64.tar.gz"
+      sha256 "cb3c9a4acd11b0d41206ffa4f603e5f9f34052ee6dca08b092831452592d5e1a"
     end
   end
 
