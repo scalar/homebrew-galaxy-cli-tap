@@ -1,23 +1,23 @@
 cask "galaxy" do
-  version "0.3.1"
+  version "0.3.2"
 
   on_macos do
     on_arm do
-      sha256 "4bffa6263da53d4acf7ba68ae272e91d5a05df19752455321b94224b1160ee22"
+      sha256 "943879c7c620da089c8611efe62b095093244501951d71ab1605e05e21ed1083"
       url "https://github.com/scalar/galaxy-cli/releases/download/v#{version}/galaxy-darwin-arm64.tar.gz"
     end
     on_intel do
-      sha256 "3d799dd97210b73d07ce0b45b18beb35a8eb5286b5bb68eac918447f51dcdeba"
+      sha256 "5022b88a0d4b32748a48377b07c527c05ed3f850a4bb5d0b280ffa6cf472b60a"
       url "https://github.com/scalar/galaxy-cli/releases/download/v#{version}/galaxy-darwin-x64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "09178187a787f041547118d5c2132bc5281b2c9c2a67eef3de1eac2df5f1b7f1"
+      sha256 "92fe727628d42dbc4d7441bea184b8bc488a142a866d0f68724a173ede9dda6e"
       url "https://github.com/scalar/galaxy-cli/releases/download/v#{version}/galaxy-linux-arm64.tar.gz"
     end
     on_intel do
-      sha256 "25182f2418ac14a3d470a5b9ca9b99c5c237f149c12b2c19a21090de6f24dfbb"
+      sha256 "624df4e13029c4f86d0a4141283c26ec768d444440253ed1c6cb24436124e844"
       url "https://github.com/scalar/galaxy-cli/releases/download/v#{version}/galaxy-linux-x64.tar.gz"
     end
   end
